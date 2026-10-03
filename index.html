@@ -269,16 +269,15 @@ h1,h2,h3,.brand,.btn,nav a,strong{font-weight:800!important}
 
 <section id="oracion"><div class="container prayer-wrap">
   <div class="prayer-intro"><div class="emoji">🙏🏽</div><div class="script">Estamos aquí para orar por ti</div><h2>Peticiones de Oración</h2><p>Comparte tu petición con nosotros. Nuestro deseo es acompañarte en oración y creer contigo en la fidelidad de Dios.</p><p><strong>“Oren unos por otros...”</strong><br>Santiago 5:16</p></div>
-  <form class="prayer-form" name="prayer-request" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-    <input type="hidden" name="form-name" value="prayer-request">
-    <p hidden><label>No llenar: <input name="bot-field"></label></p>
-    <div class="form-grid">
+ <form class="prayer-form" action="https://formsubmit.co/ms.mirandas19@gmail.com" method="POST"> 
+  <input type="hidden" name="_subject" value="Nueva Petición de Oración — Casa de Dios Monte de Sion">
+<input type="hidden" name="_captcha" value="true">    <div class="form-grid">
       <div class="field"><label for="name">Nombre (opcional)</label><input id="name" name="nombre" type="text" placeholder="Tu nombre"></div>
       <div class="field"><label for="email">Correo (opcional)</label><input id="email" name="correo" type="email" placeholder="tu@email.com"></div>
       <div class="field full"><label for="request">Tu petición de oración</label><textarea id="request" name="peticion" required placeholder="Escribe aquí tu petición..."></textarea></div>
       <div class="field full"><button class="btn btn-blue" type="submit">Enviar petición</button></div>
     </div>
-    <div class="prayer-note">Este formulario está preparado para funcionar con Netlify Forms cuando publiques nuevamente el sitio en Netlify.</div>
+  
   </form>
 </div></section>
 
